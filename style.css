@@ -1,16 +1,5 @@
 body {
     background: linear-gradient(to right, lightblue, lightgreen);
-    margin: 0;
-    height: 90vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
 }
 
 form {
@@ -18,7 +7,7 @@ form {
     padding: 30px;
     border-radius: 5px;
     max-width: 400px;
-    width: 100%;
+    margin: 200px auto;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
@@ -29,7 +18,7 @@ label {
 
 input[type="text"],
 input[type="password"] {
-    width: 100%;
+    width: 95%;
     padding: 8px;
     margin-bottom: 10px;
     border: 1px solid #ccc;
@@ -57,7 +46,7 @@ input[type="submit"]:hover {
 
     input[type="text"],
     input[type="password"] {
-        width: 100%;
+        width: 95%;
         background: linear-gradient(to right, #45a049, #3e8e41);
     }
 }
